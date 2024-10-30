@@ -1,0 +1,277 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+ @font-face {
+	font-family: 'text-security-circle';
+	src: url('text-security-circle-compat.eot');
+	src: url('text-security-circle-compat.eot?#iefix') format('embedded-opentype'), url('text-security-circle-compat.woff2') format('woff2'), url('text-security-circle-compat.ttf') format('truetype')
+}
+
+@supports((content-visibility:visible) or selector(:-moz-is-html)) and (not (-webkit-hyphens:none)) {
+	@font-face {
+		font-family: 'text-security-circle';
+		src: url('text-security-circle.woff2') format('woff2'), url('text-security-circle-compat.ttf') format('truetype')
+	}
+}
+@font-face {
+	font-family: 'text-security-disc';
+	src: url('text-security-disc-compat.eot');
+	src: url('text-security-disc-compat.eot?#iefix') format('embedded-opentype'), url('text-security-disc-compat.woff2') format('woff2'), url('text-security-disc-compat.ttf') format('truetype')
+}
+@supports((content-visibility:visible) or selector(:-moz-is-html)) and (not (-webkit-hyphens:none)) {
+	@font-face {
+		font-family: 'text-security-disc';
+		src: url('text-security-disc.woff2') format('woff2'), url('text-security-disc-compat.ttf') format('truetype')
+	}
+}
+
+@font-face {
+	font-family: 'text-security-square';
+	src: url('text-security-square-compat.eot');
+	src: url('text-security-square-compat.eot?#iefix') format('embedded-opentype'), url('text-security-square-compat.woff2') format('woff2'), url('text-security-square-compat.ttf') format('truetype')
+}
+
+@supports((content-visibility:visible) or selector(:-moz-is-html)) and (not (-webkit-hyphens:none)) {
+	@font-face {
+		font-family: 'text-security-square';
+		src: url('text-security-square.woff2') format('woff2'), url('text-security-square-compat.ttf') format('truetype')
+	}
+}
+@supports ((content-visibility: visible) or (-moz-appearance:meter)) and (not (-webkit-hyphens: none)) {
+    @font-face {
+      font-family: 'text-security';
+      src: url('text-security.woff2') format('woff2'),
+        url('text-security-compat.ttf') format('truetype');
+    }
+  }
+  
+
+div#mailersender-section {margin-right: 20px; }
+
+div#mailersender-section .ms-alert_notification {background: #fff; padding: 15px; display: flex; align-items: center; margin: 0 0 20px 0; }
+
+div#mailersender-section .ms-alert_notification > * {margin: 0; }
+
+div#mailersender-section .ms-alert_notification button {margin: 0 0 0 10px; flex-shrink: 0; }
+
+div#mailersender-section .mailersender-wrapper {display: flex; justify-content: space-between; }
+
+div#mailersender-section .mailersender-wrapper .ms-right_content {width: 320px; flex-shrink: 0; }
+
+div#mailersender-section .mailersender-wrapper .ms-left_content {width: calc(100% - 350px); }
+
+div#mailersender-section .mailersender-wrapper .ms-apikey-content {padding: 15px; margin: 0 0 20px 0; background: #fff; }
+
+div#mailersender-section h1 {line-height: normal; }
+
+div#mailersender-section .mailersender-wrapper .ms-apikey-content h2 {margin: 0; line-height: normal; font-weight: 700; }
+
+div#mailersender-section .mailersender-wrapper .ms-apikey-content  p {margin: 5px 0 13px 0; }
+
+
+
+div#mailersender-section .mailersender-wrapper .ms-left_content .ms-form-field .row_field .ms-form_label {min-width: 160px; padding: 0 20px 0 0; flex-shrink: 0; }
+
+div#mailersender-section .mailersender-wrapper .ms-left_content .ms-form-field .row_field .ms-form_label label {font-size: 14px; font-weight: 500; }
+
+div#mailersender-section .mailersender-wrapper .ms-left_content .ms-form-field .row_field .ms-form_content {flex-grow: 1; display: flex; align-items: flex-start; }
+
+div#mailersender-section .mailersender-wrapper .ms-apikey-content .ms-form_content {display: flex; align-items: flex-start; }
+
+div#mailersender-section .mailersender-wrapper .ms-apikey-content .ms-form_content input#api_key_validity {flex-shrink: 0; margin: 0 0 0 20px; }
+
+div#mailersender-section .mailersender-wrapper .ms-apikey-content .ms-form_content textarea {font-family: text-security-disc;width: 100%;height: 35px;resize: none;border: 1px solid #797979;border-radius: 0;max-width: 100%;-webkit-text-security: disc;}
+
+div#mailersender-section .mailersender-wrapper .ms-apikey-content .ms-form_content p {margin: 0 0 0; font-size: 14px; font-weight: 500; }
+
+div#mailersender-section .mailersender-wrapper .ms-apikey-content .ms-form_content p a {font-weight: bold;}
+
+div#mailersender-section .mailersender-wrapper  .ms-connect_email-section {padding: 15px; background: #fff; margin: 0 0 20px 0; }
+
+div#mailersender-section .mailersender-wrapper .ms-connect_email-section h2 {margin: 20px 0 20px 0; line-height: normal; font-weight: 700; }
+
+div#mailersender-section .mailersender-wrapper .ms-connect_email-section p {margin: 7px 0 10px 0; }
+
+div#mailersender-section .mailersender-wrapper .ms-connect_email-section  ul.list {list-style-type: decimal;padding: 0 0 0 13px;margin: 30px 0 20px 0;}
+
+div#mailersender-section .mailersender-wrapper .ms-connect_email-section ul.list li:not(:last-child) {margin: 0 0 10px 0; }
+
+div#mailersender-section .mailersender-wrapper .ms-connect_email-section .ms-email_sender {margin: 30px 0 30px 0; }
+
+div#mailersender-section .mailersender-wrapper .ms-connect_email-section > h2 {margin: 0; }
+
+div#mailersender-section .mailersender-wrapper .ms-left_content .ms-form-field .row_field:not(:last-child) {margin: 0 0 15px 0; }
+
+div#mailersender-section .mailersender-wrapper .ms-left_content .ms-form-field .row_field .ms-form_content input.button {flex-shrink: 0; margin: 0 0 0 10px; }
+
+div#mailersender-section .mailersender-wrapper .ms-connect_email-section .ms-email_noti h2 {margin-bottom: 0; }
+
+div#mailersender-section .mailersender-wrapper .ms-connect_email-section .ms-email_noti small {font-size: 16px; margin: 4px 0 20px 0; display: block; }
+
+div#mailersender-section .mailersender-wrapper .ms-left_content .ms-form-field .row_field.submit {padding: 0; }
+
+div#mailersender-section .mailersender-wrapper .ms-left_content .ms-form-field .row_field.submit input#submit {margin: 0; }
+
+div#mailersender-section .mailersender-wrapper .ms-left_content .ms-danger_zone-wrapper {background: #fff; padding: 15px; }
+
+div#mailersender-section .mailersender-wrapper .ms-left_content .ms-danger_zone-wrapper p.danger {margin: 0; color: #ff0000; font-weight: bold; }
+
+div#mailersender-section .mailersender-wrapper .ms-left_content .ms-danger_zone-wrapper p {margin: 10px 0 10px 0; }
+
+div#mailersender-section .mailersender-wrapper .ms-right_content .ms-info_wrapper {padding: 15px; background: #fff; }
+
+div#mailersender-section .mailersender-wrapper .ms-right_content .ms-info_wrapper h2 {margin: -15px -15px 0 -15px; line-height: normal; padding: 10px 15px; border-bottom: 1px solid #ccc; font-weight: 700;}
+
+div#mailersender-section .mailersender-wrapper .ms-right_content .ms-info_wrapper .ms_infolink {margin: 20px 0 0 0; }
+
+div#mailersender-section .mailersender-wrapper .ms-right_content .ms-info_wrapper .ms_infolink h3 {margin: 0 0 0 0; font-size: 14px; line-height: normal; }
+
+div#mailersender-section .mailersender-wrapper .ms-right_content .ms-info_wrapper .ms_infolink h3:not(:last-child) {margin: 0 0 10px 0; }
+
+div#mailersender-section .mailersender-wrapper .ms-apikey-content {position: relative; }
+
+
+
+div#mailersender-section .mailersender-wrapper .ms-apikey-content .alert-box h4 {margin: 0; background: #ff0000; color: #fff; padding: 6px 10px; line-height: normal; font-size: 13px; font-weight: bold; }
+
+div#mailersender-section .mailersender-wrapper .ms-left_content .ms-form-field .row_field .ms-form_content .input_wrap {flex-grow: 1;}
+
+article#alert-box-maintenance {width: 100%;}
+
+div#mailersender-section .mailersender-wrapper .ms-left_content .credit_go {padding: 11px 15px;font-size: 14px;line-height: normal;}
+
+div#mailersender-section .mailersender-wrapper .ms-left_content .ms-form-field .row_field.error-box {margin: 0 0 10px 0; padding: 0 110px 0 0; }
+
+div#mailersender-section .mailersender-wrapper .ms-left_content .ms-form-field .row_field.error-box article#alert-box-maintenance {margin: 0; }
+
+/******** Responsive Design CSS **********/
+
+@media (max-width: 1199px){
+
+div#mailersender-section .mailersender-wrapper .ms-left_content .ms-form-field .row_field .ms-form_label {min-width: 120px;}
+
+}
+
+@media (max-width: 1100px){
+
+div#mailersender-section .mailersender-wrapper .ms-left_content {width: 100%; margin: 0 0 30px 0; }
+
+div#mailersender-section .mailersender-wrapper .ms-right_content {width: 100%; }
+
+div#mailersender-section .mailersender-wrapper {flex-flow: wrap; }
+
+}
+
+@media (max-width: 782px){
+
+div#mailersender-section {margin-right: 10px; }
+
+div#mailersender-section .mailersender-wrapper .ms-apikey-content .ms-form_content {flex-flow: wrap; }
+
+div#mailersender-section .mailersender-wrapper .ms-left_content .ms-form-field .row_field .ms-form_label {width: 100%; margin: 0 0 7px 0; }
+
+div#mailersender-section .mailersender-wrapper .ms-left_content .ms-form-field .row_field:not(:last-child) {margin: 0 0 10px 0; }
+
+div#mailersender-section .mailersender-wrapper .ms-apikey-content .ms-form_content input#api_key_validity {margin: 10px 0 0; }
+
+div#mailersender-section .mailersender-wrapper .ms-left_content .ms-form-field .row_field{flex-flow: wrap;}
+
+div#mailersender-section .mailersender-wrapper .ms-apikey-content .ms-form_content {width: 100%; flex-flow: wrap; }
+
+div#mailersender-section .mailersender-wrapper .ms-apikey-content .ms-form_content .input_wrap {width: 100%; }
+
+div#mailersender-section .mailersender-wrapper .ms-apikey-content .ms-form_content textarea {max-width: 100%; }
+
+div#mailersender-section .mailersender-wrapper .ms-left_content .ms-form-field .row_field.error-box{padding: 0 0 0 0;}
+
+}
+
+div#mailersender-section .mailersender-wrapper .ms-left_content .ms-form-field .row_field {
+
+	display: flex;
+	align-items: center;
+}
+
+.ms-form_content-col {
+
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.ms-error, .ms-msg {
+
+	display: none;
+}
+
+span.ms-full-spinner {
+
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-position: center;
+	background-color: rgb(255 255 255);
+	top: 0;
+	margin: 0;
+}
+
+.error {
+	color:red;
+	font-weight:bold;
+}
+
+.alert-box {
+	width: 50vw;
+	position: relative;
+	margin: 20px auto;
+	border: 1px solid red;
+	display:none;
+}
+
+.alert-box-close {
+	position: absolute;
+	top: -12px;
+	right: -12px;
+	cursor: pointer;
+}
+
+div#mailersender-section .mailersender-wrapper .ms-left_content .ms-form-field .row_field input[type="text"] {
+	border: 1px solid #ccc;
+	border-radius: 0;
+	font-size: 15px;
+	flex-grow: 1;
+	width: 100%;
+}
+
+.template-cnt {
+
+	position: relative;
+	flex: 1;
+}
+
+.template-cnt > .spinner {
+
+	position: absolute;
+	top: 2px;
+	right: 0px;
+}
+
+.ms-form_label .woocommerce-help-tip {
+
+	width: 20px;
+	height: 22px;
+	font-size: 20px !important;
+}
+
+.unset-fontsize {
+
+	font-size: unset !important;
+}
+
+.ms-success {
+
+	color: green;
+	font-weight: bold;
+}
